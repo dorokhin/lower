@@ -26,7 +26,7 @@ func main() {
 	flag.Parse()
 
 	if *printVersion {
-		colorize(ColorGreen, "lower - text case converter, version 0.0.1 😉")
+		colorize(ColorGreen, "lower - text case converter to lowercase, version 0.0.1 😉")
 		return
 	}
 	if len(os.Args) > 1 {
